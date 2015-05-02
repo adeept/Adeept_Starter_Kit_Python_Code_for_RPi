@@ -1,2 +1,7 @@
-# Adeept_Starter_Kit_Python_Code_for_RPi
-Adeept Starter Kit Python code for Raspberry Pi
+## Adeept Starter Kit for Raspberry Pi with Python
+
+### website:
+	www.adeept.com
+
+### E-mail:
+	support@adeept.com
