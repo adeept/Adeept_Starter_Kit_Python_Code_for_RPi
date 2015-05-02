@@ -1,5 +1,13 @@
 ## Adeept Starter Kit for Raspberry Pi with Python
 
-### website: www.adeept.com
+### About this kit:
+	Adeept Starter Kit...
 
-### E-mail: support@adeept.com
+### About Adeept:
+	Adeept is a..., aim to...
+
+#### website: 
+	www.adeept.com
+
+#### E-mail: 
+	support@adeept.com
