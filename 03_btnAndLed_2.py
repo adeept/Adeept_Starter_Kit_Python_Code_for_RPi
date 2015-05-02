@@ -10,7 +10,7 @@ def setup():
 	GPIO.setmode(GPIO.BOARD)       # Numbers GPIOs by physical location
 	GPIO.setup(LedPin, GPIO.OUT)   # Set LedPin's mode is output
 	GPIO.setup(BtnPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)    # Set BtnPin's mode is input, and pull up to high level(3.3V)
-	GPIO.output(LedPin, GPIO.HIGH) # Set LedPin high(+3.3V) to off led
+	GPIO.output(LedPin, GPIO.HIGH) # Set LedPin high(+3.3V) to make led off
 
 def swLed(ev=None):
 	global Led_status
