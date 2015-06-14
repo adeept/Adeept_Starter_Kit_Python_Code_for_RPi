@@ -4,12 +4,13 @@ import time
 
 LedPin = 12
 
-GPIO.setmode(GPIO.BOARD)       # Numbers GPIOs by physical location
-GPIO.setup(LedPin, GPIO.OUT)   # Set LedPin's mode is output
-GPIO.output(LedPin, GPIO.LOW)  # Set LedPin to low(0V)
+GPIO.setmode(GPIO.BOARD)       # Numbers pins by physical location
+GPIO.setup(LedPin, GPIO.OUT)   # Set pin mode as output
+GPIO.output(LedPin, GPIO.LOW)  # Set pin to low(0V)
 
 p = GPIO.PWM(LedPin, 1000)     # set Frequece to 1KHz
-p.start(0)                     # Duty Cycle = 0
+p.start(0)                     # Start PWM output, Duty Cycle = 0
+
 try:
 	while True:
 		for dc in range(0, 101, 4):   # Increase duty cycle: 0~100
