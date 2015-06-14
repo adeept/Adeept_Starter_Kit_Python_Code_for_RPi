@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #-----------------------------------------------------------
-# File name   : blinkingLed.py
+# File name   : 01_blinkingLed_1.py
 # Description : make an led blinking.
 # Author      : Jason
 # E-mail      : jason@adeept.com
@@ -14,9 +14,9 @@ import time
 
 LedPin = 11    # pin11
 
-GPIO.setmode(GPIO.BOARD)       # Numbers GPIOs by physical location
-GPIO.setup(LedPin, GPIO.OUT)   # Set LedPin's mode is output
-GPIO.output(LedPin, GPIO.HIGH) # Set LedPin high(+3.3V) to off led
+GPIO.setmode(GPIO.BOARD)       # Numbers pins by physical location
+GPIO.setup(LedPin, GPIO.OUT)   # Set pin mode as output
+GPIO.output(LedPin, GPIO.HIGH) # Set pin to high(+3.3V) to off the led
 
 try:
 	while True:

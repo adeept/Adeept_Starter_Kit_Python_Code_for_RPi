@@ -5,9 +5,9 @@ import time
 LedPin = 11    # pin11
 
 def setup():
-	GPIO.setmode(GPIO.BOARD)       # Numbers GPIOs by physical location
-	GPIO.setup(LedPin, GPIO.OUT)   # Set LedPin's mode is output
-	GPIO.output(LedPin, GPIO.HIGH) # Set LedPin high(+3.3V) to off led
+	GPIO.setmode(GPIO.BOARD)       # Numbers pins by physical location
+	GPIO.setup(LedPin, GPIO.OUT)   # Set pin mode as output
+	GPIO.output(LedPin, GPIO.HIGH) # Set pin to high(+3.3V) to off the led
 
 def loop():
 	while True:
