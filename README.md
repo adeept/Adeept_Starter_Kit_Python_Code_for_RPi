@@ -1,4 +1,4 @@
-### Adeept Starter Kit Code for Raspberry Pi with Python code
+### Adeept Super Starter Kit Python Code for Raspberry Pi
 -----------------------------------------------------------------------------
 
 #### About this kit:
