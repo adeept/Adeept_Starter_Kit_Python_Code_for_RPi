@@ -5,9 +5,9 @@ import time
 BeepPin = 11    # pin11
 
 def setup():
-	GPIO.setmode(GPIO.BOARD)        # Numbers GPIOs by physical location
-	GPIO.setup(BeepPin, GPIO.OUT)   # Set BeepPin's mode is output
-	GPIO.output(BeepPin, GPIO.HIGH) # Set BeepPin high(+3.3V) to off beep
+	GPIO.setmode(GPIO.BOARD)        # Numbers pins by physical location
+	GPIO.setup(BeepPin, GPIO.OUT)   # Set pin mode as output
+	GPIO.output(BeepPin, GPIO.HIGH) # Set pin to high(+3.3V) to off the beep
 
 def loop():
 	while True:

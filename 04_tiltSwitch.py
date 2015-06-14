@@ -7,10 +7,10 @@ LedPin  = 12
 Led_status = 1
 
 def setup():
-	GPIO.setmode(GPIO.BOARD)       # Numbers GPIOs by physical location
-	GPIO.setup(LedPin, GPIO.OUT)   # Set LedPin's mode is output
+	GPIO.setmode(GPIO.BOARD)       # Numbers pins by physical location
+	GPIO.setup(LedPin, GPIO.OUT)   # Set pin mode as output
 	GPIO.setup(TiltPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-	GPIO.output(LedPin, GPIO.HIGH) # Set LedPin high(+3.3V) to off led
+	GPIO.output(LedPin, GPIO.HIGH) # Set pin to high(+3.3V) to off the led
 
 def swLed(ev=None):
 	global Led_status
