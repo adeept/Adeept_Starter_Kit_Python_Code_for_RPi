@@ -1,4 +1,4 @@
-### Adeept Starter Kit Code for Raspberry Pi with C language
+### Adeept Starter Kit Code for Raspberry Pi with Python code
 -----------------------------------------------------------------------------
 
 #### About this kit:
